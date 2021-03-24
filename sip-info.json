@@ -1,0 +1,42 @@
+{
+	"success": "p2p sip connection info",
+	"result": {
+		"tcpSRVAddress": "_sip._tcp.pvn.pinger.com",
+		"udpSRVAddress": "_sip._udp.pvn.pinger.com",
+		"stunServerSRVAddress": "_stun._udp.pvn.pinger.com",
+		"turnServerSRVAddress": "_turn._tcp.pvn.pinger.com",
+		"networkTesterSRVAddress": "_ntest._udp.pvn.pinger.com",
+		"defaultProxyAddresses": [
+			["tcp", "sj2-pvn08.pinger.com", 443, 10, 298],
+			["tcp", "sj2-pvn06.pinger.com", 443, 10, 300],
+			["tcp", "sj2-pvn07.pinger.com", 443, 10, 300],
+			["tcp", "sj2-pvn05.pinger.com", 443, 10, 301],
+			["udp", "sj2-pvn07.pinger.com", 4544, 5, 300],
+			["udp", "sj2-pvn05.pinger.com", 5060, 10, 300],
+			["udp", "sj2-pvn08.pinger.com", 4544, 5, 300],
+			["udp", "sj2-pvn06.pinger.com", 4544, 5, 300],
+			["udp", "sj2-pvn05.pinger.com", 4544, 5, 300],
+			["udp", "sj2-pvn06.pinger.com", 5060, 10, 300]
+		],
+		"defaultStunAddresses": [
+			["tcp", "sj2-pvn06.pinger.com", 5060, 5, 10],
+			["tcp", "sj2-pvn07.pinger.com", 5060, 5, 10],
+			["tcp", "sj2-pvn08.pinger.com", 5060, 5, 10],
+			["tcp", "sj2-pvn05.pinger.com", 5060, 5, 10]
+		],
+		"defaultTurnAddresses": [],
+		"defaultNetworkTesterAddresses": [
+			["sj2-pvn07.pinger.com", 2251, 5, 10],
+			["sj2-pvn06.pinger.com", 2251, 5, 10],
+			["sj2-pvn05.pinger.com", 2251, 5, 10],
+			["sj2-pvn08.pinger.com", 2251, 5, 10]
+		],
+		"sipProtocol": "udp",
+		"stayRegisteredInBackground": false,
+		"stayRegisteredBatteryLife": 50,
+		"backgroundRegistrationSeconds": 3600,
+		"p2pEnabled": false,
+		"turnEnabled": false,
+		"enableSIPTrace": false
+	}
+}

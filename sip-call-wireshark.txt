@@ -1,0 +1,524 @@
+INVITE sip:+18312878759@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPj44VlMezeZ4Ns4DvqUfvO9m8bM-H4wa5u
+Max-Forwards: 70
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>
+Contact: <sip:_1120165277@97.84.98.213:60881;rinstance=8e419c481df29043>;ka=25
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25567 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, norefersub
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+X-CallerId: 15128231970
+X-UsePSTN: 1
+Content-Type: application/sdp
+Content-Length: 329
+
+v=0
+o=- 3772815051 3772815051 IN IP4 97.84.98.213
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4000 RTP/AVP 102 0 101
+c=IN IP4 97.84.98.213
+b=TIAS:64000
+a=sendrecv
+a=rtpmap:102 ILBC/8000
+a=fmtp:102 mode=30
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:46085734 cname:0d8ac2a200fbec39
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPj44VlMezeZ4Ns4DvqUfvO9m8bM-H4wa5u
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=a894a905159992c130b6f735fc28d0ae.7a54
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25567 INVITE
+Proxy-Authenticate: Digest realm="sj2-pvn05.pinger.com", nonce="5d36185a56560b9ff052e3fe28846589a842cc06"
+Server: sj2-pvn05 1.8
+Content-Length: 0
+
+ACK sip:+18312878759@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPj44VlMezeZ4Ns4DvqUfvO9m8bM-H4wa5u
+Max-Forwards: 70
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=a894a905159992c130b6f735fc28d0ae.7a54
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25567 ACK
+Content-Length: 0
+
+INVITE sip:+18312878759@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+Max-Forwards: 70
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>
+Contact: <sip:_1120165277@97.84.98.213:60881;rinstance=8e419c481df29043>;ka=25
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, norefersub
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+X-CallerId: 15128231970
+X-UsePSTN: 1
+Proxy-Authorization: Digest username="_1120165277", realm="sj2-pvn05.pinger.com", nonce="5d36185a56560b9ff052e3fe28846589a842cc06", uri="sip:+18312878759@sj2-pvn05.pinger.com:4544", response="e38e3fa047ab71c878a4f6cbaedaba45"
+Content-Type: application/sdp
+Content-Length: 329
+
+v=0
+o=- 3772815051 3772815051 IN IP4 97.84.98.213
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4000 RTP/AVP 102 0 101
+c=IN IP4 97.84.98.213
+b=TIAS:64000
+a=sendrecv
+a=rtpmap:102 ILBC/8000
+a=fmtp:102 mode=30
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:46085734 cname:0d8ac2a200fbec39
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 INVITE
+Server: sj2-pvn05 1.8
+Content-Length: 0
+
+SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+Record-Route: <sip:199.87.160.240;r2=on;lr;ftag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20>
+Record-Route: <sip:199.87.160.240:4544;r2=on;lr;ftag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20>
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=j05NBSjc6yUyK
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 INVITE
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REFER, NOTIFY
+Supported: precondition, path, replaces
+Allow-Events: talk, hold, conference, refer
+Content-Length: 0
+
+SIP/2.0 183 Session Progress
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+Record-Route: <sip:199.87.160.240;r2=on;lr;ftag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20>
+Record-Route: <sip:199.87.160.240:4544;r2=on;lr;ftag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20>
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=j05NBSjc6yUyK
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 INVITE
+Contact: <sip:18312878759@199.87.161.140:5061;transport=udp>
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REFER, NOTIFY
+Supported: precondition, path, replaces
+Allow-Events: talk, hold, conference, refer
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 275
+
+v=0
+o=FreeSWITCH 1563796129 1563796130 IN IP4 199.87.161.140
+s=FreeSWITCH
+c=IN IP4 199.87.161.148
+t=0 0
+m=audio 59170 RTP/AVP 102 101
+a=rtpmap:102 ILBC/8000
+a=fmtp:102 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=silenceSupp:off - - - -
+a=ptime:30
+CANCEL sip:+18312878759@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+Max-Forwards: 70
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 CANCEL
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+SIP/2.0 200 canceling
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=d8c3cf19522835f6cdb3d596ce83fe7d-96fd
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 CANCEL
+Server: sj2-pvn05 1.8
+Content-Length: 0
+
+SIP/2.0 487 Request Terminated
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=j05NBSjc6yUyK
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 INVITE
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REFER, NOTIFY
+Supported: precondition, path, replaces
+Allow-Events: talk, hold, conference, refer
+Content-Length: 0
+
+ACK sip:+18312878759@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPjMt6aeZchjWlZasOUrxk7esP2nJxaFN3c
+Max-Forwards: 70
+From: <sip:15128231970@sj2-pvn05.pinger.com>;tag=Ogt3NuZcaTnELDW9nAwgnX8SxqMHaa20
+To: <sip:+18312878759@sj2-pvn05.pinger.com>;tag=j05NBSjc6yUyK
+Call-ID: -2JLlTR7i6JKfEWHJwRomcOpbIMuoC30
+CSeq: 25568 ACK
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK5690348
+From: sip:keepalive@199.87.160.240;tag=29f080ab
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-7931635c-379c72@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK5690348
+Call-ID: 348b06a5-7931635c-379c72@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=29f080ab
+To: <sip:97.84.98.213>;tag=z9hG4bK5690348
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK5842887
+From: sip:keepalive@199.87.160.240;tag=28a1eef0
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77e2d1a1-379c8b@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK5842887
+Call-ID: 348b06a5-77e2d1a1-379c8b@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=28a1eef0
+To: <sip:97.84.98.213>;tag=z9hG4bK5842887
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK9681909
+From: sip:keepalive@199.87.160.240;tag=282adb15
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-776bbdc6-379ca4@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK9681909
+Call-ID: 348b06a5-776bbdc6-379ca4@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=282adb15
+To: <sip:97.84.98.213>;tag=z9hG4bK9681909
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK7404540
+From: sip:keepalive@199.87.160.240;tag=2beafb8b
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-7b2bde3c-379cbd@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK7404540
+Call-ID: 348b06a5-7b2bde3c-379cbd@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=2beafb8b
+To: <sip:97.84.98.213>;tag=z9hG4bK7404540
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+REGISTER sip:_1120165277@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPjJbJ76FpUiFE0NS1Axy7REpRg9KoUlRh-
+Max-Forwards: 70
+From: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=Bko9qRTKafnwKUHlkjuFfZSp9OwgOhUM
+To: <sip:_1120165277@sj2-pvn05.pinger.com>
+Call-ID: R9Oevt30a2zDG8RqxhYDptgkiVyuKZWO
+CSeq: 51295 REGISTER
+Authorization: Digest username="_1120165277", realm="sj2-pvn05.pinger.com", nonce="5d3617d2ecfd546448647509f1f150d49fcdf7fe", uri="sip:_1120165277@sj2-pvn05.pinger.com:4544", response="0ddf6fc78f2bc0a480d2a8e4ddd7ea87"
+X-PingerCap: t=n;v=y
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Contact: <sip:_1120165277@97.84.98.213:60881;rinstance=8e419c481df29043>;ka=25
+Expires: 660
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length: 0
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjJbJ76FpUiFE0NS1Axy7REpRg9KoUlRh-
+From: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=Bko9qRTKafnwKUHlkjuFfZSp9OwgOhUM
+To: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=a894a905159992c130b6f735fc28d0ae.5094
+Call-ID: R9Oevt30a2zDG8RqxhYDptgkiVyuKZWO
+CSeq: 51295 REGISTER
+WWW-Authenticate: Digest realm="sj2-pvn05.pinger.com", nonce="5d3618bd63c376deca592479cc5eb92980ebebf2", stale=true
+Server: sj2-pvn05 1.8
+Content-Length: 0
+
+REGISTER sip:_1120165277@sj2-pvn05.pinger.com:4544 SIP/2.0
+Via: SIP/2.0/UDP 97.84.98.213:60881;rport;branch=z9hG4bKPjqs.qMm.ovcyRLhhOq32FfC0k6fj7MsqJ
+Max-Forwards: 70
+From: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=Bko9qRTKafnwKUHlkjuFfZSp9OwgOhUM
+To: <sip:_1120165277@sj2-pvn05.pinger.com>
+Call-ID: R9Oevt30a2zDG8RqxhYDptgkiVyuKZWO
+CSeq: 51296 REGISTER
+X-PingerCap: t=n;v=y
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Contact: <sip:_1120165277@97.84.98.213:60881;rinstance=8e419c481df29043>;ka=25
+Expires: 660
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="_1120165277", realm="sj2-pvn05.pinger.com", nonce="5d3618bd63c376deca592479cc5eb92980ebebf2", uri="sip:_1120165277@sj2-pvn05.pinger.com:4544", response="873753a1581d5bb5b64bed089d1ab00d"
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 97.84.98.213:60881;received=97.84.98.213;rport=60881;branch=z9hG4bKPjqs.qMm.ovcyRLhhOq32FfC0k6fj7MsqJ
+From: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=Bko9qRTKafnwKUHlkjuFfZSp9OwgOhUM
+To: <sip:_1120165277@sj2-pvn05.pinger.com>;tag=a894a905159992c130b6f735fc28d0ae.a9cb
+Call-ID: R9Oevt30a2zDG8RqxhYDptgkiVyuKZWO
+CSeq: 51296 REGISTER
+X-QMAddr: sj2-pvnmr09.pinger.com,sj2-pvnmr10.pinger.com
+Contact: <sip:_1120165277@97.84.98.213:60881;rinstance=8e419c481df29043>;q=0.5;expires=240
+Server: sj2-pvn05 1.8
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK2010139
+From: sip:keepalive@199.87.160.240;tag=285ffd75
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77a0e026-379cd6@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK2010139
+Call-ID: 348b06a5-77a0e026-379cd6@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=285ffd75
+To: <sip:97.84.98.213>;tag=z9hG4bK2010139
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK3237565
+From: sip:keepalive@199.87.160.240;tag=287a5263
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77bb3514-379cef@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK3237565
+Call-ID: 348b06a5-77bb3514-379cef@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=287a5263
+To: <sip:97.84.98.213>;tag=z9hG4bK3237565
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK8997492
+From: sip:keepalive@199.87.160.240;tag=2beb05ad
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-7b2be85e-379d08@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK8997492
+Call-ID: 348b06a5-7b2be85e-379d08@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=2beb05ad
+To: <sip:97.84.98.213>;tag=z9hG4bK8997492
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK2240980
+From: sip:keepalive@199.87.160.240;tag=2beb092a
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-7b2bebdb-379d21@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK2240980
+Call-ID: 348b06a5-7b2bebdb-379d21@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=2beb092a
+To: <sip:97.84.98.213>;tag=z9hG4bK2240980
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK9054626
+From: sip:keepalive@199.87.160.240;tag=28a1f702
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77e2d9b3-379d3a@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK9054626
+Call-ID: 348b06a5-77e2d9b3-379d3a@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=28a1f702
+To: <sip:97.84.98.213>;tag=z9hG4bK9054626
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK8831941
+From: sip:keepalive@199.87.160.240;tag=282eced4
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-776fb185-379d53@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK8831941
+Call-ID: 348b06a5-776fb185-379d53@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=282eced4
+To: <sip:97.84.98.213>;tag=z9hG4bK8831941
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK5595700
+From: sip:keepalive@199.87.160.240;tag=287a54b7
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77bb3768-379d6c@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK5595700
+Call-ID: 348b06a5-77bb3768-379d6c@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=287a54b7
+To: <sip:97.84.98.213>;tag=z9hG4bK5595700
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK4579759
+From: sip:keepalive@199.87.160.240;tag=28a1f871
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77e2db22-379d85@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK4579759
+Call-ID: 348b06a5-77e2db22-379d85@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=28a1f871
+To: <sip:97.84.98.213>;tag=z9hG4bK4579759
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
+OPTIONS sip:97.84.98.213:60881 SIP/2.0
+Via: SIP/2.0/UDP 199.87.160.240:4544;branch=z9hG4bK3653956
+From: sip:keepalive@199.87.160.240;tag=289609c2
+To: sip:97.84.98.213:60881
+Call-ID: 348b06a5-77d6ec73-379d9e@199.87.160.240
+CSeq: 1 OPTIONS
+User-Agent: OpenSIPS
+X-NAT-PING: 199.87.160.240
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 199.87.160.240:4544;received=199.87.160.240;branch=z9hG4bK3653956
+Call-ID: 348b06a5-77d6ec73-379d9e@199.87.160.240
+From: <sip:keepalive@199.87.160.240>;tag=289609c2
+To: <sip:97.84.98.213>;tag=z9hG4bK3653956
+CSeq: 1 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: a=TFA&v=8.45.1&b=214_RC_v.45.1_STORE_CONFIG&c=textfree-android
+Content-Length: 0
+
