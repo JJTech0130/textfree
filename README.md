@@ -1,4 +1,4 @@
-# Textfree-API (Private)
+# Textfree-API (Jul 20, 2019)
 Create accounts, assign phone numbers, receiving/sending messages, and make calls, all with a few lines of python.
 Disclaimer: All of the above code is not in anyway created by pinger or associates of textfree. I am the creator of the library.
 
